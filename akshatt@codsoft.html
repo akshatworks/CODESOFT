@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      background-image: url('photo2.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      
+    }
+    .header {
+      background-color: #5083a5;
+      color: rgba(250, 246, 246, 0.993);
+      text-align: center;
+      padding: 50px;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .portfolio-page {
+      text-align: center;
+      padding: 50px;
+    }
+
+    .portfolio-page img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .portfolio-page h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-page h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-page p {
+      font-size: 16px;
+      color: #f8f4f4;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    .hire-me-button {
+      display: inline-block;
+      background-color: #e74c3c;
+      color: white;
+      font-size: 20px;
+      padding: 15px 30px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .hire-me-button:hover {
+      background-color: #c0392b;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .skill {
+      background-color: #3498db;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skill-name {
+      margin-right: 10px;
+    }
+
+    .skill-bar {
+      flex: 1;
+      background-color: #2c3e50;
+      border-radius: 5px;
+      height: 20px;
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .skill-bar-fill {
+      border-radius: 5px;
+      height: 100%;
+    }
+
+    .key-skills {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .key-skills h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .key-skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .key-skills li {
+      font-size: 18px;
+      color: #f7f4f4;
+      margin-bottom: 10px;
+    }
+
+    .expertise {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .expertise h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .expertise p {
+      font-size: 18px;
+      color: #faf6f6;
+      max-width: 800px;
+      margin: 0 auto 20px;
+    }
+
+    .contact-info-tab {
+      display: flex;
+      justify-content: center;
+      background-color: #5a7c9e;
+      padding: 10px;
+      margin-top: 50px;
+    }
+
+    .contact-info-tab a {
+      color: white;
+      font-size: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-right: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .contact-info-tab a:last-child {
+      margin-right: 0;
+    }
+
+    .contact-info-tab a:hover {
+      background-color: #3e6081;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .contact-info h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      font-size: 18px;
+      color: #f7f3f3;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #4d6e8f;
+      color: rgb(250, 247, 247);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Welcome to My Portfolio</h1>
+  </div>
+
+  <div class="portfolio-page">
+    <img src="photo1.jpeg" alt="My Photo">
+    <h1>Hello, I'm AKSHAT NIGAM </h1>
+    <p> 
+I am a passionate web developer with a focus on front-end technologies. I enjoy creating responsive and interactive web experiences. My journey into web development started several years ago when I discovered my love for coding and design. Since then, I have been continuously learning and improving my skills.
+
+My goal is to create meaningful and user-friendly websites that leave a lasting impression on visitors. I am always open to new challenges and eager to explore emerging technologies I'm creating user-friendly and visually appealing websites.</p>
+    <div class="skills">
+      <div class="skill">
+        <span class="skill-name">HTML</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 90%; background-color: #27ae60;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">CSS</span>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" style="width: 90%; background-color: #3498db;"></div>
+        </div>
+      </div>
+      <!-- Add more skills with percentage and colors here -->
+    </div>
+
+    <div class="key-skills">
+      <h3>Key Skills:</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>BASIC JS</li>
+        <li>FRONTEND DEVLOPMENT </li>
+         <li>C PROGRAMMING </li>
+         <li>BASICS OF PYTHON PROGRAMING </li>
+         
+        <!-- Add more key skills here -->
+      </ul>
+    </div>
+
+    <div class="expertise">
+      <h3>Expertise:</h3>
+      <p>I specialize in building interactive and user-friendly web applications using modern web technologies. I am proficient in front-end development.</p>
+    </div>
+
+    <a href="#" class="hire-me-button">Hire Me</a>
+  </div>
+
+  <div class="contact-info-tab">
+    <a href="#contact">Contact Info</a>
+    <!-- Add more contact options or links here -->
+  </div>
+
+  <div class="contact-info" id="contact">
+    <h3>Contact Information:</h3>
+    <p>Email: akshatnigam.in@gmail.com </p>
+    <p>Phone: +91 9335924662</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/akshat-nigam-19a676284">My LinkedIn Profile</a></p>
+    <!-- Add more contact information here -->
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2023 akshat@codsoft. All rights reserved.</p>
+  </footer>
+
+  <!-- Your JavaScript code for advanced features can be added here -->
+</body>
+</html>
